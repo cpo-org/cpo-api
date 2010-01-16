@@ -155,6 +155,10 @@
           <configuration>
             <source>1.5</source>
             <target>1.5</target>
+            <compilerArguments>
+               <!-- java 1.5 classes.jar -->
+               <bootclasspath>classes.jar</bootclasspath>
+            </compilerArguments>
           </configuration>
         </plugin>
       </plugins>
