@@ -37,7 +37,7 @@
     produces POJOs
   </description>
   <properties>
-    <oracleVersion>11.2.0.2.0</oracleVersion>
+    <oracleVersion>11.2.0.3</oracleVersion>
     <mysqlVersion>5.1.16</mysqlVersion>
     <hsqldbVersion>2.2.8</hsqldbVersion>
     <cassandraVersion>1.1.0</cassandraVersion>
@@ -169,6 +169,11 @@
       <artifactId>ojdbc6</artifactId>
       <version>${oracleVersion}</version>
       <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.oracle</groupId>
+      <artifactId>xdb6</artifactId>
+      <version>${oracleVersion}</version>
     </dependency>
     
     <!-- database drivers for testing -->
