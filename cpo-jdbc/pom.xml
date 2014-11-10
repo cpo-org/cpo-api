@@ -170,12 +170,7 @@
       <version>${oracleVersion}</version>
       <scope>provided</scope>
     </dependency>
-    <dependency>
-      <groupId>com.oracle</groupId>
-      <artifactId>xdb6</artifactId>
-      <version>${oracleVersion}</version>
-    </dependency>
-    
+
     <!-- database drivers for testing -->
     <dependency>
       <groupId>postgresql</groupId>
